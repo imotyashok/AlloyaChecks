@@ -14,7 +14,7 @@ namespace AlloyaChecks
     public partial class AlloyaChecksService : ServiceBase
     {
         public Logger log = Logger.Instance;
-        public Utils Util = new Utils(); 
+        public Utility Util = new Utility(); 
         public AlloyaChecksService()
         {
             InitializeComponent(); 
@@ -24,8 +24,7 @@ namespace AlloyaChecks
         {
             // This is where main functionality happens (aka "RunProgram() method in old)
             log.WriteInfoLog("Started Alloya Checks service");
-
-            Util.ConfigureWindowsRegistry(); 
+            Util.InitializeWindowsRegistry(); 
         }
 
         protected override void OnStop()
