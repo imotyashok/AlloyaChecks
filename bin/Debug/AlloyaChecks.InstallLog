@@ -1,0 +1,242 @@
+﻿Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe assembly.
+Committing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Rolling back assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+An exception occurred during the Rollback phase of the System.ServiceProcess.ServiceProcessInstaller installer.
+System.NullReferenceException: Object reference not set to an instance of an object.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Rolling back assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Restoring event log to previous state for source Service1.
+Uninstalling assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Committing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Uninstalling assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Alloya Service...
+Service Alloya Service has been successfully installed.
+Creating EventLog source Alloya Service in log Application...
+Committing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Uninstalling assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Removing EventLog source Alloya Service.
+Service Alloya Service is being removed from the system...
+Service Alloya Service was successfully removed from the system.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Alloya Service...
+Creating EventLog source Alloya Service in log Application...
+Rolling back assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Restoring event log to previous state for source Alloya Service.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Alloya Service...
+Creating EventLog source Alloya Service in log Application...
+Rolling back assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Restoring event log to previous state for source Alloya Service.
+Uninstalling assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Removing EventLog source Alloya Service.
+Warning: The source Alloya Service is not registered on the local machine.
+Service Alloya Service is being removed from the system...
+Service Alloya Service was successfully removed from the system.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Alloya Service...
+Creating EventLog source Alloya Service in log Application...
+Rolling back assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Restoring event log to previous state for source Alloya Service.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security, State.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Alloya Service...
+Service Alloya Service has been successfully installed.
+Creating EventLog source Alloya Service in log Application...
+Committing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Uninstalling assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+An exception occurred during the uninstallation of the AlloyaChecks.AlloyaServiceInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+An exception occurred during the uninstallation of the AlloyaChecks.AlloyaServiceInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+An exception occurred during the uninstallation of the AlloyaChecks.AlloyaServiceInstaller installer.
+System.ArgumentException: The savedState dictionary contains inconsistent data and might have been corrupted.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Alloya Checks Service...
+Creating EventLog source Alloya Checks Service in log Application...
+Rolling back assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Restoring event log to previous state for source Alloya Checks Service.
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Unable to create an instance of the AlloyaChecks.AlloyaServiceInstaller installer type.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+The inner exception System.ArgumentException was thrown with the following error message: An installer cannot be added to its own collection..
+Rolling back assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Unable to create an instance of the AlloyaChecks.AlloyaServiceInstaller installer type.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+The inner exception System.ArgumentException was thrown with the following error message: An installer cannot be added to its own collection..
+Installing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+Installing service Alloya Checks Service...
+Service Alloya Checks Service has been successfully installed.
+Creating EventLog source Alloya Checks Service in log Application...
+Committing assembly 'C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.InstallLog
+   assemblypath = C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe

@@ -1,0 +1,9 @@
+C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe.config
+C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.exe
+C:\Users\17733\Desktop\projects\AlloyaChecks\bin\Debug\AlloyaChecks.pdb
+C:\Users\17733\Desktop\projects\AlloyaChecks\obj\Debug\AlloyaChecks.csproj.AssemblyReference.cache
+C:\Users\17733\Desktop\projects\AlloyaChecks\obj\Debug\AlloyaChecks.csproj.CoreCompileInputs.cache
+C:\Users\17733\Desktop\projects\AlloyaChecks\obj\Debug\AlloyaChecks.exe
+C:\Users\17733\Desktop\projects\AlloyaChecks\obj\Debug\AlloyaChecks.pdb
+C:\Users\17733\Desktop\projects\AlloyaChecks\obj\Debug\AlloyaChecks.AlloyaServiceInstaller.resources
+C:\Users\17733\Desktop\projects\AlloyaChecks\obj\Debug\AlloyaChecks.csproj.GenerateResource.cache
