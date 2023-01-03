@@ -7,28 +7,29 @@ using System.Threading.Tasks;
 
 namespace AlloyaChecks
 {
+    public enum UserSettings
+    {
+        Username,
+        Password,
+        Q1,
+        Q2,
+        Q3,
+        Q1Answer,
+        Q2Answer,
+        Q3Answer,
+        Location,
+        LocationIndex,
+        EdgeDriverPath,
+        PrinterServerName,
+        GenericPrinterName,
+        EpsonPrinterName,
+        GenericPrinterPort,
+        ReceiptPath
+    }
+
     public class Utility
     {
         public Logger log = Logger.Instance;
-        public enum UserSettings
-        {
-            Username,
-            Password,
-            Q1,
-            Q2,
-            Q3,
-            Q1Answer,
-            Q2Answer,
-            Q3Answer,
-            Location,
-            LocationIndex,
-            EdgeDriverPath,
-            PrinterServerName,
-            GenericPrinterName,
-            EpsonPrinterName,
-            GenericPrinterPort,
-            ReceiptPath
-        }
 
         private static string registrySubkeyPath = "SYSTEM\\CurrentControlSet\\Services\\Alloya Checks Service\\Credentials";
         private RegistryKey AlloyaRegistry = null; 
@@ -45,6 +46,19 @@ namespace AlloyaChecks
                 return false;
             }
             return true; 
+        }
+
+        public string getRegistryKeyValue(string keyname)
+        {
+            try
+            {
+                return AlloyaRegistry.GetValue(keyname).ToString();
+            } 
+            catch (Exception e)
+            {
+                log.WriteErrorLog("Couldn't retrieve key " + keyname + " from registry: " + e.ToString()); 
+            }
+            return null; 
         }
 
         public void InitializeWindowsRegistry()
