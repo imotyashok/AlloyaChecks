@@ -16,21 +16,7 @@ namespace AlloyaChecks
 
         public Logger log = Logger.Instance;
         public Utility util = new Utility();
-
-
-        // TODO : rewrite this whole thing
-        /* public string driverURL = "https://premierview.alloyacorp.org/";
-         public string edgeDriverPath = props.EdgeDriverPath;
-         private string _USER = props.Username;    //"imotyashok";
-         private string _PASS; // = props.Password;    // "znc#dja23"; 
-         private string _q1 = props.Q1;
-         private string _q2 = props.Q2;
-         private string _q3 = props.Q3;
-         private string _q1_answer = props.Q1Answer;
-         private string _q2_answer = props.Q2Answer;
-         private string _q3_answer = props.Q3Answer;
-         private string _location = props.Location;
-         private string _location_index = props.LocationIndex;*/
+        public bool HasError = false;
 
         public string driverURL = "https://premierview.alloyacorp.org/";
         public string edgeDriverPath;
@@ -53,6 +39,7 @@ namespace AlloyaChecks
 
         Dictionary<string, string> securityQuestions;
         EdgeDriver driver;
+
         public bool DriverInitialized { get; set; }
 
         private static DateTime StartTime { get; set; }
@@ -89,8 +76,8 @@ namespace AlloyaChecks
             catch (Exception e)
             {
                 DriverInitialized = false;
-                var errorMessage = "Couldn't initialize web driver: \n" + e.Message + "\n";
-                log.WriteErrorLog(errorMessage);
+                HasError = true; 
+                log.WriteErrorLog("Couldn't initialize web driver: \n" + e.ToString());
             }
 
             try
@@ -109,7 +96,8 @@ namespace AlloyaChecks
             }
             catch (Exception e)
             {
-                log.WriteErrorLog("Couldn't initialize security questions: \n" + e.Message + "\n");
+                HasError = true; 
+                log.WriteErrorLog("Couldn't initialize security questions: \n" + e.ToString());
             }
         }
 
@@ -142,8 +130,15 @@ namespace AlloyaChecks
             }
             catch (Exception e)
             {
+                HasError = true; 
                 log.WriteErrorLog("Couldn't get to Scan Checks page: " + e.Message + "\n");
             }
+        }
+
+        public void SetTimer()
+        {
+            this.timer = new Timer(2000);
+            this.timer.Start();
         }
 
         public bool CheckTimer()

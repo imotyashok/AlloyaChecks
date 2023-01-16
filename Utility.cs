@@ -52,7 +52,9 @@ namespace AlloyaChecks
         {
             try
             {
-                return AlloyaRegistry.GetValue(keyname).ToString();
+                string registryKeyValue = AlloyaRegistry.GetValue(keyname).ToString();
+                log.WriteInfoLog("Value of registry key "+keyname+": "+registryKeyValue);
+                return registryKeyValue;
             } 
             catch (Exception e)
             {
@@ -83,6 +85,18 @@ namespace AlloyaChecks
             {
                 log.WriteErrorLog("Couldn't create Alloya registry and write keys to it: " + e.ToString()); 
             }
+        }
+
+        public bool allSettingsExist()
+        {
+            foreach (var setting in Enum.GetNames(typeof(UserSettings)))
+            {
+                if (AlloyaRegistry.GetValue(setting) == null || AlloyaRegistry.GetValue(setting).ToString() == "{value not set}")
+                {
+                    return false;
+                }
+            }
+            return true; 
         }
     }
 }
