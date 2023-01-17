@@ -28,7 +28,10 @@ namespace AlloyaChecks
 
         protected override void OnStop()
         {
-            alloyaDriver.KillDriver();
+            if (alloyaDriver != null)
+            {
+                alloyaDriver.KillDriver();
+            }
             log.WriteInfoLog("Stopped Alloya Checks service");
         }
 
@@ -90,9 +93,6 @@ namespace AlloyaChecks
             {
                 log.WriteErrorLog("There are settings missing; please add values to the keys in the registry"); 
             }
-
         }
-
-        
     }
 }

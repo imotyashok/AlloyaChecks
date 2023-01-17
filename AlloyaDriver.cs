@@ -159,7 +159,6 @@ namespace AlloyaChecks
                 timer.Stop();
                 timer.Dispose();
                 log.WriteErrorLog("Timer ran out for token ");
-                Environment.Exit(0);
             }
             else
             {// Check if they're on next page 
@@ -238,13 +237,6 @@ namespace AlloyaChecks
                 TimerRunning = true;
 
                 TokenValidation = true;
-                //    StopTime = DateTime.Now.AddMinutes(2);
-                //     TimeLeft = 60; 
-
-                //    timer = new Timer();
-                //    timer.Tick += TokenTimeout;
-                //    timer.Interval = 1000; // Update every 1 second 
-                //    timer.Start();
             }
             else
             {
